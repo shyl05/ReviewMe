@@ -1,0 +1,12 @@
+.usersCardsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* grid-auto-rows: minmax(60px, auto); */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.user-card{
+    text-align: start;
+}

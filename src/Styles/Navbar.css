@@ -1,0 +1,24 @@
+.navbar{
+    background-color:black;
+}
+
+.navHead{
+    text-decoration: none;
+    color:darkorange;
+}
+
+.navHead:hover{
+    color:crimson;
+}
+
+.navSpace{
+    width: 30px;
+}
+
+.nav-item .nav-link{
+    color:grey;
+}
+
+.nav-item .nav-link:hover{
+    color:white;
+}
