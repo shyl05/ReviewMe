@@ -27,7 +27,7 @@ const UserCard = forwardRef(function UserCard(props,ref){
         navigate(`/comments/${user_id}`)
     }
 
-    return <Card {...props} className="user-card" style={cardStyle}>
+    return <Card {...props} className="user-card"  style={cardStyle}>
         <CardBody>
             <CardTitle tag="h5">
                 USER : {props.value.userName}
