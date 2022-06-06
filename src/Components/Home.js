@@ -4,6 +4,7 @@ import axios from 'axios';
 import {Card,CardBody,CardSubtitle,CardText,CardTitle,Button} from 'reactstrap';
 import '../Styles/Home.css';
 
+// UserCard Component
 
 const UserCard = forwardRef(function UserCard(props,ref){
     // Array containing colors
@@ -49,6 +50,7 @@ const UserCard = forwardRef(function UserCard(props,ref){
 })
 
 
+// Main Function
 
 function Home(){
     let [users,setUsers] = useState([]);
